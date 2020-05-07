@@ -1,0 +1,43 @@
+# ALACRITTY CONFIG FILE
+# Changes Font to CASCADIA CODE and uses default ubuntu TANGO theme colors.
+# Path : ~/.config/alacritty/alacritty.yml
+
+# Font Config
+font:  
+  size: 11  
+  normal:    
+    family: Cascadia Code
+
+background_opacity: 0.9
+
+colors:
+  primary:
+    background: '#000000'
+    foreground: '#AAAAAA'
+  
+  # Cursor colors pick foreground values by default
+  # cursor:
+  #   text: '#AAAAAA'
+  #   cursor: '#D9D9D9'
+
+  # Normal colors
+  normal:
+      black:   '#2E3436'
+      red:     '#CC0000'
+      green:   '#4E9A06'
+      yellow:  '#C4A000'
+      blue:    '#3465A4'
+      magenta: '#75507B'
+      cyan:    '#06989A'
+      white:   '#D3D7CF'
+
+  # Bright colors
+  bright:
+      black:   '#555753'
+      red:     '#EF2929'
+      green:   '#8AE234'
+      yellow:  '#FCE94F'
+      blue:    '#729FCF'
+      magenta: '#AD7FA8'
+      cyan:    '#34E2E2'
+      white:   '#EEEEEC'
